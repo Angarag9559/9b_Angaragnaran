@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shalgalt</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="w-screen h-screen flex flex-col justify-center items-center">
-        <div class="h-1/5 w-full bg-red-500">
-            <h1>Ene bol shalgalt yum bi sain hiine</h1>
+    <div class="w-screen h-screen flex flex-col justify-center items-center" id="cont">
+        <div class="h-1/5 w-full flex flex-col justify-evenly items-center">
+            <p class="text-black" id="avral">Ene bol shalgalt yum bi sain hiine</p>
+            <button class="bg-gray-300 h-20 w-44 rounded-3xl" onclick="press()">NOT SCAM!!!!</button>
         </div>
-        <div class="h-4/5 w-full bg-green-100">
-            <h1>hello</h1>
+        <div class="h-4/5 w-full flex justify-evenly items-center">
+            <div class="triangle" id="tri"></div>
+            <div class="square" id="sq"></div>
+            <div class="round" id="ro"></div>
         </div>
     </div>
 

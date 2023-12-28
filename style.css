@@ -1,1 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.triangle {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 300px solid red;
+    border-top: 0px solid transparent;
+    display: inline-block;
+}
+.square{
+    height: 350px;
+    width: 350px;
+    background-color: green;
+}
+.round{
+    height: 350px;
+    width: 350px;
+    background-color: yellow;
+    border-radius: 999999999px;
+}
 
